@@ -457,7 +457,7 @@ export default function FanZone({ leaderboard, applications, onSubmitApplication
             {/* 3. SOCIAL MEDIA INTEGRATION TILES */}
             <div className="grid grid-cols-3 gap-3">
               <a 
-                href="https://discord.com" 
+                href="https://discord.gg/GTNeDDJc2" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="bg-brand-charcoal hover:bg-brand-red p-4 rounded border border-white/5 text-center flex flex-col items-center justify-center gap-2 group transition-all duration-300"
@@ -477,7 +477,7 @@ export default function FanZone({ leaderboard, applications, onSubmitApplication
               </a>
 
               <a 
-                href="https://instagram.com" 
+                href="https://instagram.com/official.razeelite" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="bg-brand-charcoal hover:bg-brand-red p-4 rounded border border-white/5 text-center flex flex-col items-center justify-center gap-2 group transition-all duration-300"

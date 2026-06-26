@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Mail, Phone, Cpu, MapPin, ExternalLink, Calendar, Heart } from 'lucide-react';
+import { Shield, Mail, Phone, Cpu, MapPin, ExternalLink, Calendar, Heart, Instagram, MessageSquare } from 'lucide-react';
 import Logo from './Logo';
 
 interface FooterProps {
@@ -71,13 +71,25 @@ export default function Footer({ onNavigate, sponsors }: FooterProps) {
               WE SHATTER LIMITS.
             </p>
 
-            <div className="font-mono text-[9px] text-gray-600 space-y-1">
+            <div className="font-mono text-[9px] text-gray-500 space-y-1.5 pt-2">
               <div className="flex items-center gap-1.5">
-                <MapPin className="h-3.5 w-3.5" />
+                <MapPin className="h-3.5 w-3.5 text-brand-red-light" />
                 <span>SECTOR 47, JAKARTA CENTRAL, ID</span>
               </div>
+              <a href="tel:+918984250035" className="flex items-center gap-1.5 hover:text-white transition-colors">
+                <Phone className="h-3.5 w-3.5 text-brand-red-light" />
+                <span>+91 89842 50035</span>
+              </a>
+              <a href="https://instagram.com/official.razeelite" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 hover:text-white transition-colors">
+                <Instagram className="h-3.5 w-3.5 text-brand-red-light" />
+                <span>@official.razeelite</span>
+              </a>
+              <a href="https://discord.gg/GTNeDDJc2" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 hover:text-white transition-colors">
+                <MessageSquare className="h-3.5 w-3.5 text-brand-red-light" />
+                <span>DISCORD: RAZE ELITE</span>
+              </a>
               <div className="flex items-center gap-1.5">
-                <Shield className="h-3.5 w-3.5" />
+                <Shield className="h-3.5 w-3.5 text-brand-red-light" />
                 <span>SECURE ENCRYPT: FFWC-2026-OK</span>
               </div>
             </div>
