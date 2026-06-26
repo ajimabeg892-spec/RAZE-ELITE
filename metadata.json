@@ -1,0 +1,6 @@
+{
+  "name": "Raze Elite Esports",
+  "description": "The official premium futuristic digital platform for RAZE ELITE — professional Free Fire esports organization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
